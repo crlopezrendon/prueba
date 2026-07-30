@@ -1,0 +1,19 @@
+{
+  "_comment": "Copia este archivo a config/notion-spaces.json. Cada clave es un 'espacio' que puedes mencionar por voz (ej. 'crea una tarea en marketing para...'). database_id es el ID de la base de datos de Notion (32 caracteres, se ve en la URL de la base de datos). Los *_property deben coincidir EXACTAMENTE con los nombres de las propiedades de tu base de datos en Notion.",
+  "default": {
+    "database_id": "REEMPLAZA_CON_TU_DATABASE_ID",
+    "title_property": "Name",
+    "assignee_property": "Asignado",
+    "due_date_property": "Fecha límite",
+    "status_property": "Estado",
+    "default_status": "Por hacer"
+  },
+  "marketing": {
+    "database_id": "REEMPLAZA_CON_TU_DATABASE_ID_MARKETING",
+    "title_property": "Name",
+    "assignee_property": "Asignado",
+    "due_date_property": "Fecha límite",
+    "status_property": "Estado",
+    "default_status": "Por hacer"
+  }
+}

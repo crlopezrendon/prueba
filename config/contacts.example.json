@@ -1,0 +1,11 @@
+{
+  "_comment": "Copia este archivo a config/contacts.json y complétalo. El agente usa 'nombre' para resolver a quién enviar un correo cuando le dictas un audio (ej. 'mándale un correo a Juan...').",
+  "juan perez": {
+    "email": "juan.perez@clienteempresa.com",
+    "tipo": "cliente"
+  },
+  "maria lopez": {
+    "email": "maria.lopez@miempresa.com",
+    "tipo": "equipo"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+auth/
+*.log
+config/contacts.json
+config/notion-spaces.json
