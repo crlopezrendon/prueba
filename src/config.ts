@@ -25,8 +25,10 @@ function readJsonFile<T>(filePath: string, label: string): T {
 }
 
 export const config = {
-  controlJid: required("CONTROL_JID"),
-  whatsappAuthDir: process.env.WHATSAPP_AUTH_DIR || "./auth",
+  telegram: {
+    botToken: required("TELEGRAM_BOT_TOKEN"),
+    chatId: required("TELEGRAM_CHAT_ID"),
+  },
   requireConfirmation: (process.env.REQUIRE_CONFIRMATION ?? "true") === "true",
 
   openai: {

@@ -1,9 +1,8 @@
 services:
-  whatsapp-agent:
+  telegram-agent:
     build: .
     restart: unless-stopped
     env_file:
       - .env
     volumes:
-      - ./auth:/app/auth
       - ./config:/app/config

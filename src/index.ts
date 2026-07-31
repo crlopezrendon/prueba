@@ -1,10 +1,10 @@
-import { startWhatsApp } from "./whatsapp/client";
-import { handleIncomingMessage } from "./whatsapp/messageHandler";
+import { startTelegram } from "./telegram/client";
+import { registerHandlers } from "./telegram/messageHandler";
 import { logger } from "./logger";
 
 async function main() {
-  logger.info("Iniciando agente de WhatsApp...");
-  await startWhatsApp(handleIncomingMessage);
+  logger.info("Iniciando agente de Telegram...");
+  startTelegram(registerHandlers);
 }
 
 main().catch((err) => {
